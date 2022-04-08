@@ -20,8 +20,14 @@ const AutonomyScreen = ({route, navigation}) => {
     const calculaAutonomia = () => {
 
         if(fuel != null & distance != null & autonomy != null){
+            if(fuel > 0 & distance >= 0 & autonomy >= 0){
             const total = (fuel * distance) / autonomy;
-            navigation.navigate('Results', {total})
+            navigation.navigate('Results', {total});
+
+            }else {
+                ToastAndroid.show('Por favor, insira valores maiores que 0!',
+                ToastAndroid.SHORT);
+            }
         }else{
             ToastAndroid.show('Por favor, preencha os campos!',
             ToastAndroid.SHORT); 
@@ -41,7 +47,7 @@ const AutonomyScreen = ({route, navigation}) => {
             </TouchableOpacity>
             <Text style={Style2.title}>Calcule seu gasto!</Text>
             </View>
-            <Icon name="calculator" size ={60} color= "black"/>
+            <Icon name="car" size ={60} color= "black"/>
 
             <Text style={Style2.hint}>Valor do combustível</Text>
             <TextInput 

@@ -25,7 +25,7 @@ const Home = ({route, navigation}) => {
 
              {/* -------------------------------------------------- */}
 
-            <Icon name="automobile" size ={60} color= "black"/>
+            <Icon name="dashboard" size ={60} color= "black"/>
 
              {/* -------------------------------------------------- */}
 
