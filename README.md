@@ -9,7 +9,7 @@
 
 #### Guia das interfaces
 
-- Home - Insira seu nome e clique em "vamos lá", e navegue para a interface de Autonomy.
+- Home - Clique em "vamos lá", e navegue para a interface de Autonomy.
 
 <div align="center">
 <img width="326" alt="Tela_Home" src="https://github.com/Lucas-Cussulini/Projeto_Autonomia/blob/main/Prints_Readme/Tela_Home.png">
