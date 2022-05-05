@@ -36,4 +36,3 @@
 - [JAVASCRIPT] - Linguagem de programação.
 - [React Native] – Framework.
 - [Visual Studio Code] - Ambiente de desenvolvimento.
-![image](https://user-images.githubusercontent.com/82481017/162474146-5333d773-6e41-423a-a3ba-4506884935fb.png)
