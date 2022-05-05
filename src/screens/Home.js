@@ -4,15 +4,12 @@ import {
     Text,
     TouchableOpacity,
     SafeAreaView,
-    TextInput,
 } from "react-native";
 import Icon from 'react-native-vector-icons/FontAwesome';
 import Style1 from "../styles/Style1";
 
 
 const Home = ({route, navigation}) => {
-
-    const [travel, setTravel] = useState();
     
     return(
         <SafeAreaView style={Style1.container}>

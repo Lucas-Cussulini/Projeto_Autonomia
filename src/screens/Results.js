@@ -22,13 +22,13 @@ const Results = ({route, navigation}) => {
             <TouchableOpacity onPress={() => goBack()}>
             <Icon name="arrow-left" size={30} color="black" style={Style3.iconBack}/>
             </TouchableOpacity>
-            <Text style={Style3.title}>Gasto Calulado!</Text>
+            <Text style={Style3.title}>Gasto calculado!</Text>
             </View>
         
             <Text style={Style3.text}> • Preço estimado:</Text>
             <Icon name="caret-down" size ={60} color= "black"/>
             <Icon name="money" size ={40} color= "black"/>
-            <Text style={Style3.results}>R$ - {total}</Text>
+            <Text style={Style3.results}>R$ {total}</Text>
 
             <TouchableOpacity style={Style3.buttonCalc}
                 onPress={goBack}> 

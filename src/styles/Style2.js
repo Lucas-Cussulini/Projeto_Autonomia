@@ -9,11 +9,12 @@ export default StyleSheet.create({
     },
 
     viewBack: {
-        flexDirection: "row"
+        flexDirection: "row",
+        marginLeft: 30
     },
 
     iconBack: {
-        marginTop: 42
+        marginTop: 42,
     },
 
     title: {
@@ -23,6 +24,10 @@ export default StyleSheet.create({
         color: '#000',
         textAlign: 'center',
         marginTop: 10
+    },
+
+    iconCar: {
+        textAlign: 'center'
     },
 
     hint: {
@@ -93,11 +98,11 @@ export default StyleSheet.create({
         backgroundColor: '#ebebeb',
         alignSelf: 'center',
         paddingTop: 25,
-        height: 100,
-        width: 370,
+        height: 50,
+        width: 366,
         borderWidth: 1,
         borderColor: '#000',
-        marginTop: 70,
+        marginTop: 68,
         borderTopEndRadius: 25,
         borderTopStartRadius: 25,
     },
